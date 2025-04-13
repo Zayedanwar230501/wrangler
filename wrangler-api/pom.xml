@@ -40,5 +40,12 @@
       <scope>provided</scope>
     </dependency>
 
+    <dependency>
+      <groupId>io.cdap.cdap</groupId>
+      <artifactId>cdap-api</artifactId>
+      <version>6.9.0</version> <!-- Ensure you use the correct version of CDAP -->
+    </dependency>
+
+
   </dependencies>
 </project>

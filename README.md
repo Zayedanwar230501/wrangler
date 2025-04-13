@@ -216,3 +216,24 @@ Cask is a trademark of Cask Data, Inc. All rights reserved.
 
 Apache, Apache HBase, and HBase are trademarks of The Apache Software Foundation. Used with
 permission. No endorsement by The Apache Software Foundation is implied by the use of these marks.
+
+
+# Wrangler Library Enhancement
+
+This project is an enhancement of the **Wrangler Library** to support additional parsing features for **Byte Size** and **Time Duration**. The enhancements aim to extend the functionality of the Wrangler library by allowing users to easily parse byte sizes and time durations in a human-readable format.
+
+## Features
+
+- **Byte Size Parsing:** Convert byte sizes written in human-readable formats like `1KB`, `10MB`, `2GB`, etc., to their equivalent numerical values in bytes.
+- **Time Duration Parsing:** Convert time durations written as strings (e.g., `1h`, `30m`, `10s`) into their corresponding time values in seconds.
+
+## Enhancements
+
+- **Byte Size Parsing:**
+    - Supports the conversion of common byte size units such as `KB`, `MB`, `GB`, `TB`, etc.
+    - Provides the functionality to handle both uppercase and lowercase unit representations.
+
+- **Time Duration Parsing:**
+    - Allows parsing time units like `h` (hours), `m` (minutes), `s` (seconds).
+    - Can handle combinations of different time units (e.g., `2h30m`).
+

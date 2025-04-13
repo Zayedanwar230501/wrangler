@@ -140,7 +140,7 @@ numberRange
  ;
 
 value
- : String | Number | Column | Bool
+ : String | Number | Column | Bool | ByteSize | TimeDuration
  ;
 
 ecommand
@@ -311,3 +311,33 @@ fragment Int
 fragment Digit
  : [0-9]
  ;
+
+/*
+ * ByteSize and TimeDuration token support.
+ */
+ByteSize
+  : Number ByteUnit
+  ;
+
+fragment ByteUnit
+  : [kKmMgGtT]? 'B'
+  ;
+
+TimeDuration
+  : Number TimeUnit
+  ;
+
+fragment TimeUnit
+  : 'ms' | 's' | 'm' | 'h' | 'd' | 'MS' | 'S' | 'M' | 'H' | 'D'
+  ;
+
+byteSize
+ : ByteSize
+ ;
+
+timeDuration
+ : TimeDuration
+ ;
+
+
+
