@@ -1,0 +1,43 @@
+AI Assistance Prompts
+1. Assistance with Wrangler Library Enhancement
+To get started on enhancing the Wrangler library to support Byte Size and Time Duration parsing, I asked the AI for guidance on how to approach the task.
+
+Prompt:
+"How can I enhance a library to support parsing byte sizes (e.g., KB, MB, GB) and time durations (e.g., hours, minutes, seconds)?"
+
+2. Writing Unit Tests for the Enhancement
+When I needed help writing unit tests for the new functionality, I sought assistance from the AI to generate test cases for parsing byte sizes and time durations.
+
+Prompt:
+"Can you help me write unit tests for a library that parses byte sizes and time durations?"
+
+3. Code Review and Suggestions
+I used AI to review my code implementation and ensure I was following best practices for the new features, such as byte size parsing and time duration parsing.
+
+Prompt:
+"Please review my Java code for parsing byte sizes (KB, MB, GB) and time durations (hours, minutes, seconds) and suggest improvements."
+
+4. Dependency Issue Troubleshooting
+During testing, I encountered dependency issues. I asked AI for troubleshooting help to resolve issues related to missing or incompatible libraries.
+
+Prompt:
+"How can I resolve dependency issues in Java when libraries required for unit testing are not working?"
+
+5. Generating Documentation and README Content
+I also sought AI help to create the content for the README file, which included explaining the purpose of the enhancement and writing out the required documentation.
+
+Prompt:
+"Can you generate a README file for a project that enhances a library to support byte size and time duration parsing in Java?"
+
+6. Assistance with Git Commands
+AI was also helpful in clarifying Git commands for version control. I asked for the right commands to push my changes to GitHub.
+
+Prompt:
+"What are the Git commands to commit changes to a new branch and push them to GitHub?"
+
+7. Generating Prompts for AI-Generated Tasks
+Lastly, I asked AI to generate the tasks I should perform to complete the project, including writing unit tests and ensuring proper Git workflow.
+
+Prompt:
+"What tasks should I complete to finish the Wrangler library enhancement project for byte size and time duration parsing?"
+
